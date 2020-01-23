@@ -42,6 +42,7 @@ body .overlay .modal__write .title span {
 body .overlay .modal__write .title .del {
   right: 0;
   margin-right: 20px;
+  cursor: pointer;
 }
 body .overlay .modal__write .title .del:hover {
   color: #FF1100;
@@ -51,6 +52,8 @@ body .overlay .modal__write textarea {
   width: 95%;
   border: none;
   outline: none;
+  font-size: 16px;
+  resize: none;
 }
 body .overlay .modal__write .add__container {
   display: flex;
@@ -68,6 +71,7 @@ body .overlay .modal__write .add__container .add__task {
   color: #fff;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 body .overlay .modal__write .add__container .add__task:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
@@ -105,11 +109,50 @@ body .overlay .modal__write .add__container .add__task:hover {
   font-size: 50px;
   margin-left: 30px;
   margin-top: 10px;
+  cursor: pointer;
 }
 .main__container .toolbar .add__tasks:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   background-color: #30C12B;
   color: #E7E7E7;
+}
+.main__container .toolbar .task__done {
+  display: none;
+  height: 80%;
+  width: 70px;
+  border-radius: 100%;
+  background-color: #37DD31;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.main__container .toolbar .task__done:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  background-color: #30C12B;
+  color: #E7E7E7;
+}
+.main__container .toolbar .del__task {
+  display: none;
+  height: 80%;
+  width: 150px;
+  border: none;
+  outline: none;
+  background-color: #EB3C45;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 50px;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.main__container .toolbar .del__task:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  background-color: #D72831;
+  color: #D0D0D0;
 }
 .main__container .toolbar .clean__all {
   height: 80%;
@@ -123,6 +166,7 @@ body .overlay .modal__write .add__container .add__task:hover {
   font-size: 20px;
   margin-top: 10px;
   margin-right: 30px;
+  cursor: pointer;
 }
 .main__container .toolbar .clean__all:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
@@ -131,6 +175,14 @@ body .overlay .modal__write .add__container .add__task:hover {
 }
 .main__container .work__space {
   height: 80%;
+  overflow: auto;
+}
+.main__container .work__space .list {
+  color: #6B717F;
+  font-size: 18px;
+}
+.main__container .work__space .list .list__item:hover {
+  color: #625C02;
 }
 
 /*# sourceMappingURL=style.css.map */
