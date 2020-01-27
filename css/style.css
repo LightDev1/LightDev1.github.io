@@ -54,6 +54,8 @@ body .overlay .modal__write textarea {
   outline: none;
   font-size: 16px;
   resize: none;
+  color: #6B717F;
+  padding: 10px;
 }
 body .overlay .modal__write .add__container {
   display: flex;
