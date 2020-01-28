@@ -188,8 +188,8 @@ body .overlay .modal__write .add__container .add__task:hover {
 }
 
 @media (max-width: 767px) {
-  .main__container {
-    height: 450px;
+  body {
+    height: 800px;
   }
 }
 
