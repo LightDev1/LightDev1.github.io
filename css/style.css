@@ -189,7 +189,7 @@ body .overlay .modal__write .add__container .add__task:hover {
 
 @media (max-width: 767px) {
   body {
-    height: 800px;
+    height: 600px;
   }
 }
 
