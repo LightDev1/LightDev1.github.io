@@ -211,11 +211,11 @@ body {
 @media (max-width: 767px) {
 
     body {
-        height: 450px;
+        height: 50%;
 
         .main__container {
-            min-height: 450px;
             height: 450px;
+            min-height: 450px;
         }
     }
 
