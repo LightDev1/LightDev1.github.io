@@ -187,4 +187,10 @@ body .overlay .modal__write .add__container .add__task:hover {
   color: #625C02;
 }
 
+@media (max-width: 767px) {
+  .main__container {
+    height: 450px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
