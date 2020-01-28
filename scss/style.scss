@@ -209,7 +209,8 @@ body {
 }
 
 @media (max-width: 767px) {
-    body {
-       height: 600px;
+    .main__container {
+        min-height: 500px ;
+        height: 500px;
     }
   }
