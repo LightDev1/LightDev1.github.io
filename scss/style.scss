@@ -209,8 +209,14 @@ body {
 }
 
 @media (max-width: 767px) {
-    .main__container {
-        min-height: 500px ;
-        height: 500px;
+
+    body {
+        height: 450px;
+
+        .main__container {
+            min-height: 450px;
+            height: 450px;
+        }
     }
+
   }
